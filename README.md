@@ -8,3 +8,7 @@ Apache 2.0
 ## Credits
 Basile Giuseppe (IG: @giu27seppe_) <br>
 Lanna Alfonso (IG: alfonso_lanna)
+
+
+## Image Credits
+-Vecteezy
