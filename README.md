@@ -1,4 +1,4 @@
-# Lista Incipit 2024  <a href="https://Kozokun.github.io"><img src="logo.svg" alt="" width="64" height="64"/></a>
+# Lista Incipit 2024  <img src="logo.svg" alt="" width="64" height="64"/>
  
 _Benvenuto nella repository ufficale del sito della lista Incipit 2024, una delle liste candidate alla rappresentanza di istitituto del Liceo Scientifico G. Rummo di Benevento._
 
