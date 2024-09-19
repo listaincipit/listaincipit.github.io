@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta property="og:title" content="Lista Incipit 2024" />
+    <meta property="og:description" content="Web Page of Lista Incipit 2024"/>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista incipit</title>
+
+    <link rel="icon" type="image/x-icon" href="logo.svg">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- BOOTSTRAP AND JQUERY -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script>
+      function insta_search(name) {
+        window.open('https://www.instagram.com/' +  name + "/");
+      }
+    </script>
+
+  </head>
+<body onload="window.location = '#home';">
+
+<!-- NAVBAR -->
+  <nav class="navbar fixed-top bg-body-tertiary" id="home">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <img src="logo.svg" alt="" id="logo">
+      </a>
+
+      <button id="offcanvas-starter" class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+      </button>
+    </div>
+  </nav>
+
+
+<!-- SIDEBAR/OFFCANVAS -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title" id="offcanvasExampleLabel">Indice</h3>
+       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <div id="offcanvas-presentation">
+        Clicca su uno dei seguenti punti per visualizzare la sezione della pagina dedicata.
+      </div>
+
+      <div id="offcanvas-options">
+        <div class="list-group list-group-flush">
+            <strong><a href="#" onclick="window.location = '#incipit';" data-bs-dismiss="offcanvas" style="margin-bottom:4.5vh;font-family: monospace;" class="list-group-item list-group-item-action">Cos'è Incipit?</a></strong>
+            <strong><a href="#" onclick="window.location = '#programma';" data-bs-dismiss="offcanvas" style="margin-bottom:4.5vh;font-family: monospace;" class="list-group-item list-group-item-action">Il nostro programma</a></strong>
+            <strong><a href="#" onclick="window.location = '#team';" data-bs-dismiss="offcanvas" style="margin-bottom:4.5vh;font-family: monospace;" class="list-group-item list-group-item-action">Chi siamo</a></strong>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+<!-- WHAT'S INCIPIT SECTION -->
+  <section class="general-container">
+    <div class="card" style="margin-top:0px;padding-top: 0px;">
+      <div class="card-body">
+        <blockquote class="blockquote blockquote-custom bg-white px-3 pt-4">
+          <div class="blockquote-custom-icon bg-info shadow-1-strong">
+            <i class="fa fa-quote-left text-white"></i>
+          </div>
+          <em>
+            “Nei codici, parola iniziale della formula posta al principio di un’opera di una sua parte”
+          </em>
+        </blockquote>
+      </div>
+    </div>
+
+    <nav class="navbar bg-body-tertiary" style="padding:0px;margin-top:0px;">
+      <div style="text-align: center;background-color: #316558;padding: 0px;" class="container-fluid">
+        <h2 class="question-text" id="incipit" class="navbar-text">
+          Cos'è Incipit?
+        </h2>
+      </div>
+    </nav>
+
+    <div class="txt-container">
+      <p>"Incipit" vuole dare una visione della rappresentanza, che dovrebbe sostenere ogni singolo studente comprendendo la sua personale prospettiva e le sue necessità.</p>
+      <p> Il nostro scopo è quello di arricchire la coscienza comune del corpo studentesco.</p>
+    </div>
+
+    <div class="txt-container">
+      <svg xmlns="http://www.w3.org/2000/svg" style="text-align: center;margin-top: 5px; width:4vh;height:4vh;" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+      </svg>
+      <em style="font-family:Helvetica ;font-size:2.7;">Iniziando da</em>
+    </div>
+
+    <div class="txt-container">
+        <p>un "nuovo codice" che spazia da una visione critica delle rappresentanze passate ad una lente più intimista, tesa all’analisi delle relazioni tra ogni singolo studente o gruppo.</p>
+    </div>
+
+</section>
+
+
+
+<!-- OUR PROGRAM CARDLIST SECTION -->
+<section class="general-container">
+    <nav class="navbar bg-body-tertiary" style="padding:0px;margin-bottom: 0px;"></nav>
+        <div style="text-align: left;background-color: #316558" class="container-fluid">
+          <h2 class="question-text" id="programma" class="navbar-text">
+            Il nostro programma
+          </h2>
+        </div>
+    </nav>
+
+    <div>
+      <div class="card mb-3">
+        <img src="foto_programma/sportello_psicologico.png" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">1. Sportello Psicologico</h5>
+          <p class="card-text">Il nostro obiettivo è quello di fornire agli studenti un confronto diretto con uno specialista presso le ASL locali, garantendo l’accesso in forma anonima e autonoma.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/giornata_ecologia.png" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">2. Giornata Ecologica</h5>
+          <p class="card-text">Tramite la collaborazione con il FAI Benevento vorremmo riproporre una giornata ecologica in cui gli studenti saranno parte attiva della pulizia di luoghi prettamente storici e spazi pubblici patrocinati dal FAI.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/educazione_sessuale.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">3. Educazione Sessuale</h5>
+          <p class="card-text">Nella giornata del 14 Febbraio gli studenti avranno la possibilità di avere un confronto diretto all’interno degli spazi scolastici con una specialista per ricevere nozioni essenziali su temi sensibili.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/tutoraggio.jpeg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">4. Aula autogestita e Tutoraggio tra Studenti</h5>
+          <p class="card-text">L’obiettivo primario è quello di rendere gli studenti parte di un gruppo saldo e spronarli alla collaborazione. 
+            Vengono proposte per questo delle ripetizioni pomeridiane dagli studenti per gli studenti nelle quali chi svolge la funzione di “insegnante” potrà ricevere in cambio ore di pcto. Tutto ciò avverrà all’interno dell’aula autogestita, un’aula fornitaci dalle istituzioni scolastiche, in appositi giorni ed orari prestabiliti.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/scuola_rappresentanza.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">5. Scuola di rappresentanza</h5>
+          <p class="card-text">Tramite incontri con ex rappresentanti d’istituto e di consulta la nostra idea è quella di portare consapevolezza sugli organi di rappresentanza e le loro funzioni fondamentali all’interno della scuola. </p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/Rummocast.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">6. Podcast PCTO</h5>
+          <p class="card-text">Sulla base del voto favorevole del consiglio d’istituto il podcast potrà diventare un corso PCTO a tutti gli effetti dove la partecipazione, sia nella parte tecnica che in quella pratica, verrà compensata tramite crediti e ore PCTO.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/macchinette_erogatori.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">7. Prezzi dei distributori e installazione degli erogatori d'acqua</h5>
+          <p class="card-text">Sulla base del contratto sottoscritto dall’azienda fornitrice si è costatato un forte rincaro dei prezzi. Il nostro obiettivo sarà quello di illustrare alla preside e a chi di dovere la necessaria documentazione affinchè i costi ritornino come prestabiliti. Inoltre ci impegneremo nel rendere nuovamente accessibili gli erogatori d’acqua, forniti negli anni precedenti dalla GESESA. </p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/libri_dizionari.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">8. Libri e Dizionari</h5>
+          <p class="card-text">Il nostro scopo è quello di dotare gli studenti di nuovi dizionari e libri scolastici comuni a tutte le classi (come ad esempio la divina commedia o i promessi sposi) in modo da consentire a tutti gli alunni che ne necessitano di poter usufruire di questo materiale.</p>
+        </div>
+          </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/commissione_gite.jpeg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">9. Commissione gite</h5>
+          <p class="card-text">La nostra proposta è quella di creare una commissione dove i rappresentanti si possano confrontare sui luoghi e le modalità delle uscite scolastiche con la professoressa dedicata.</p>
+        </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/tessera_studente.png" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">10. Tessera Studentesca</h5>
+          <p class="card-text">La nostra idea è quella di riproporre la tessera dello studente sia collaborando nuovamente con il FAI sia aggiungendo nuove convezioni.</p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/commissione_parietica.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">11. Commissione Parietica</h5>
+          <p class="card-text">Una commissione commissione istituita da studenti e professori in egual numero per stabilire ogni anno l’offerta formativa.</p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/feste_limitrofe.jpg" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">12. Aggiornamenti Feste Limitrofe</h5>
+          <p class="card-text">Informazione e pubblicizzazione di feste e\o sagre che si svolgono nei paesi limitrofi a Benevento.</p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="foto_programma/ulteriori_proposte.png" class="card-img-top" alt="L'immagine non carica...">
+        <div class="card-body">
+          <h5 class="card-title">13. Ulteriori Proposte</h5>
+          <ul>
+            <li class="card-text">Aggiornamenti sulle notizie politiche</li>
+            <li class="card-text">Collaborazioni con musei locali</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+</section> 
+
+
+<!-- TEAM SECTION-->
+<section class="general-container">
+  <nav class="navbar bg-body-tertiary" style="padding:0px;margin-bottom: 0px;"></nav>
+    <div style="text-align: left;background-color: #316558" class="container-fluid">
+      <h2 class="question-text" id="team" class="navbar-text">
+        Chi siamo
+      </h2>
+    </div>
+  </nav>
+
+  <!-- MEMBERS LIST AND IG-->
+  <div style="text-align: center;">
+    <ol class="list-group list-group-numbered">
+
+      <li class="list-group-item">Giuseppe D'Acquisto (5A)<br>
+        <svg onclick="insta_search('giuseppe.dacquisto_')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('giuseppe.dacquisto_')">@giuseppe.dacquisto_</p>
+    </li>
+
+      <li class="list-group-item">Adriano Grasso (5A)<br>
+        <svg onclick="insta_search('_.adriano.grasso._')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg> 
+        <p style="display:inline" onclick="insta_search('_.adriano.grasso._')">@_.adriano.grasso._</p>
+      </li>
+
+      <li class="list-group-item">Davide Iscaro (3H)<br>
+        <svg onclick="insta_search('iscaro._')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('iscaro._')">@iscaro._</p>
+      </li>
+
+      <li class="list-group-item">Francesca Cillo (4H)<br>
+        <svg onclick="insta_search('francesca.cillo_')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('francesca.cillo_')">@francesca.cillo_</p>
+      </li>
+
+      <li class="list-group-item">Niccolò Miceli (4E)<br>
+        <svg onclick="insta_search('niccolo_miceli')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('niccolo_miceli')">@niccolo_miceli</p>
+      </li>
+
+      <li class="list-group-item">Sofia Mercurio (2L)<br>
+        <svg onclick="insta_search('sofia_mercurioo')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('sofia_mercurioo')">@sofia_mercurioo</p>
+      </li>
+
+      <li class="list-group-item">Mario Vultaggio (2B)<br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('mariooov_15')">@mariooov_15</p>
+      </li>
+
+      <li class="list-group-item">Alessandra Di Natale (1C)<br>
+        <svg onclick="insta_search('ale.dn__')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>  
+        <p style="display:inline" onclick="insta_search('ale.dn__')">@ale.dn__</p>
+      </li>
+    </ol>
+  </div>
+
+</section>
+
+<!-- FOOTER AND CREDITS -->
+<footer>
+  <hr class="my-5" />
+  <div class="text-center p-3" style="background-color: rgb(0, 0, 0);color:whitesmoke;">
+    Sviluppato da:<br>
+    Giuseppe Basile (<svg onclick="insta_search('giu27seppe_')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+    </svg>
+    <div style="display: inline;" onclick="insta_search('giu27seppe_')">  @giu27seppe_)</div><br>
+
+    Alfonso Lanna (<svg onclick="insta_search('alfonso_lanna')" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+    </svg>
+    <div style="display: inline;" onclick="insta_search('alfonso_lanna')">@alfonso_lanna)</div><br>
+      
+    <br>
+    Puoi trovare la repository su github <a href="">qui</a>.
+  </div>
+</footer>
+
+</body>
+</html>
